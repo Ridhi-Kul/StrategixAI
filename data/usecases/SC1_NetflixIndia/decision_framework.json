@@ -1,0 +1,25 @@
+{
+    "decision_question": "Should Netflix launch full-scale in India in Q2 2020?",
+    "options": [
+        "Full Launch (aggressive marketing + full catalog)",
+        "Pilot in Tier-1 cities first",
+        "Delay launch by 6 months to localize content",
+        "Abort \u2013 continue minimal presence"
+    ],
+    "constraints": {
+        "budget_ceiling": "100M USD",
+        "profitability_horizon": "12 months",
+        "localization_target": "60% by Q4"
+    },
+    "success_criteria": {
+        "target_users": 20000000,
+        "ARPU_min": 3.0,
+        "ChurnRate_max": 5.0
+    },
+    "metadata_tags": {
+        "region": "India",
+        "industry": "Streaming",
+        "urgency": "medium"
+    },
+    "ground_truth_option": "Pilot in Tier-1 cities first"
+}

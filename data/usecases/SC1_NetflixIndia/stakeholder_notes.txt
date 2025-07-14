@@ -1,0 +1,14 @@
+## CMO COMMENT
+“We’re losing mindshare to Hotstar during IPL season. We need local hooks.”
+
+## HEAD OF CONTENT COMMENT
+“Only 40% of our India catalog is dubbed or original. Need to invest.”
+
+## CTO COMMENT
+“Server scaling cost is manageable, but latency issues are still region-dependent.”
+
+## CFO COMMENT
+“Full launch could hit margins short-term. We might need a hybrid plan.”
+
+## CEO COMMENT
+“I want 20M paid users in India within 2 years or it's not worth the effort.”

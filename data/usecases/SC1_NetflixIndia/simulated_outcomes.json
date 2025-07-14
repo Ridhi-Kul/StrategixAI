@@ -1,0 +1,26 @@
+{
+  "Full Launch (aggressive marketing + full catalog)": {
+    "ROI": 8.2,
+    "ChurnRate": 7.3,
+    "ARPU": 2.2,
+    "execution_risk": "high"
+  },
+  "Pilot in Tier-1 cities first": {
+    "ROI": 13.4,
+    "ChurnRate": 4.1,
+    "ARPU": 2.9,
+    "execution_risk": "medium"
+  },
+  "Delay launch by 6 months to localize content": {
+    "ROI": 10.1,
+    "ChurnRate": 5.8,
+    "ARPU": 3.0,
+    "execution_risk": "low"
+  },
+  "Abort – continue minimal presence": {
+    "ROI": 2.1,
+    "ChurnRate": 6.5,
+    "ARPU": 1.4,
+    "execution_risk": "low"
+  }
+}

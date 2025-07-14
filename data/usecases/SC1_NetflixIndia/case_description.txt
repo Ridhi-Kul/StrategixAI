@@ -1,0 +1,7 @@
+Netflix has been growing steadily across global markets but has yet to achieve its expected penetration in price-sensitive, mobile-first emerging markets. 
+The executive team must decide whether to make a full-scale push into India or pursue a more phased entry strategy.
+
+This decision must be made in light of market competition (e.g., Amazon Prime Video, Disney+ Hotstar), subscriber growth trends, ARPU (Average Revenue Per User), 
+and infrastructure constraints like internet reliability and content localization.
+
+Decision Question: Should Netflix proceed with a full-scale expansion in India in Q2 2020?
