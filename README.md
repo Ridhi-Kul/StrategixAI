@@ -1,3 +1,4 @@
+```bash
 project_root/
 │
 ├── data/
@@ -23,3 +24,4 @@ project_root/
 │
 ├── demo_app/ (optional)
 │   └── interface.py or streamlit_app.py
+```
