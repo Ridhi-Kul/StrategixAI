@@ -1,5 +1,4 @@
 # Step 3.1: Text Embedding Pipeline using SBERT
-# Save this script as: /src/embedding_pipeline.py
 
 import os
 import re
@@ -10,7 +9,7 @@ from pathlib import Path
 # === Configuration ===
 USECASE_ID = "SC1_NetflixIndia"
 BASE_DIR = Path("data/usecases") / USECASE_ID
-OUTPUT_PATH = BASE_DIR / "embeddings_text.pkl"
+OUTPUT_PATH = Path("embeddings/SC1_NetflixIndia_embeddings.pkl")
 SEGMENTED_FILES = ["market_trends_segmented.txt", "stakeholder_notes_segmented.txt"]
 UNSEGMENTED_FILES = {"case_description.txt": "CASE_DESCRIPTION"}
 
