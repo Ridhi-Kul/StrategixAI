@@ -10,7 +10,7 @@ from pathlib import Path
 USECASE_ID = "SC1_NetflixIndia"
 BASE_DIR = Path("data/usecases") / USECASE_ID
 OUTPUT_PATH = Path("embeddings/SC1_NetflixIndia_embeddings.pkl")
-SEGMENTED_FILES = ["market_trends_segmented.txt", "stakeholder_notes_segmented.txt"]
+SEGMENTED_FILES = ["market_trends.txt", "stakeholder_notes.txt"]
 UNSEGMENTED_FILES = {"case_description.txt": "CASE_DESCRIPTION"}
 
 # === Load SBERT Model ===
