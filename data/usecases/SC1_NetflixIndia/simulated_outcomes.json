@@ -1,26 +1,58 @@
 {
-  "Full Launch (aggressive marketing + full catalog)": {
-    "ROI": 8.2,
-    "ChurnRate": 7.3,
-    "ARPU": 2.2,
-    "execution_risk": "high"
-  },
-  "Pilot in Tier-1 cities first": {
-    "ROI": 13.4,
-    "ChurnRate": 4.1,
-    "ARPU": 2.9,
-    "execution_risk": "medium"
-  },
-  "Delay launch by 6 months to localize content": {
-    "ROI": 10.1,
-    "ChurnRate": 5.8,
-    "ARPU": 3.0,
-    "execution_risk": "low"
-  },
-  "Abort – continue minimal presence": {
-    "ROI": 2.1,
-    "ChurnRate": 6.5,
-    "ARPU": 1.4,
-    "execution_risk": "low"
-  }
+    "Full Launch (aggressive marketing + full catalog)": {
+        "Q1": {
+            "ROI": 5.1,
+            "ChurnRate": 7.5
+        },
+        "Q2": {
+            "ROI": 6.3,
+            "ChurnRate": 6.8
+        },
+        "Q3": {
+            "ROI": 7.5,
+            "ChurnRate": 6.2
+        }
+    },
+    "Pilot in Tier-1 cities first": {
+        "Q1": {
+            "ROI": 6.0,
+            "ChurnRate": 5.3
+        },
+        "Q2": {
+            "ROI": 7.2,
+            "ChurnRate": 4.6
+        },
+        "Q3": {
+            "ROI": 8.0,
+            "ChurnRate": 4.1
+        }
+    },
+    "Delay launch by 6 months to localize content": {
+        "Q1": {
+            "ROI": 2.0,
+            "ChurnRate": 6.5
+        },
+        "Q2": {
+            "ROI": 3.5,
+            "ChurnRate": 6.2
+        },
+        "Q3": {
+            "ROI": 10.1,
+            "ChurnRate": 5.8
+        }
+    },
+    "Abort \u2013 continue minimal presence": {
+        "Q1": {
+            "ROI": 1.5,
+            "ChurnRate": 7.0
+        },
+        "Q2": {
+            "ROI": 2.0,
+            "ChurnRate": 6.7
+        },
+        "Q3": {
+            "ROI": 2.1,
+            "ChurnRate": 6.5
+        }
+    }
 }

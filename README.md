@@ -11,17 +11,21 @@ project_root/
 │           └── decision_framework.json
 │
 ├── embeddings/
-│   └── SC1_NetflixIndia_embeddings.pkl  ← (optional, post-Step 3)
+│   └── SC1_NetflixIndia_embeddings.pkl
+│   └── SC1_NetflixIndia_kpi_features.json
+│   └── SC1_NetflixIndia_meta_context.json
 │
-├── prompts/
+├── prompts/ (TBD)
 │   └── base_prompts.txt
 │   └── generated_options.json
 │
 ├── src/
 │   └── embedding_pipeline.py
+│   └── kpi_feature_engineering
+│   └── meta_context_vector
 │   └── strategy_agent.py
-│   └── feedback_agent.py
+│   └── feedback_agent.py (TBD)
 │
-├── demo_app/ (optional)
+├── demo_app/ (TBD)
 │   └── interface.py or streamlit_app.py
 ```

@@ -19,7 +19,9 @@
     "metadata_tags": {
         "region": "India",
         "industry": "Streaming",
-        "urgency": "medium"
+        "urgency": "medium",
+        "risk_tolerance": "high",
+        "hierarchy_level": "CXO"
     },
     "ground_truth_option": "Pilot in Tier-1 cities first"
 }
