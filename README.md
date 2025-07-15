@@ -15,8 +15,8 @@ project_root/
 │   └── SC1_NetflixIndia_kpi_features.json
 │   └── SC1_NetflixIndia_meta_context.json
 │
-├── prompts/ (TBD)
-│   └── base_prompts.txt
+├── prompts/ 
+│   └── base_prompts.txt (TBD)
 │   └── generated_options.json
 │
 ├── src/
