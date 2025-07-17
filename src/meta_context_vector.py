@@ -32,7 +32,6 @@ for tag, options in possible_values.items():
         context_vector[key] = 1 if value == option else 0
 
 # === Save Output ===
-OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
 with open(OUTPUT_PATH, "w") as f:
     json.dump({USECASE_ID: context_vector}, f, indent=4)
 

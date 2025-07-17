@@ -28,11 +28,11 @@ for i in range(len(india_df)):
     us_row = us_df.loc[i]
 
     features[quarter] = {
-        "ARPU_ratio": round(india_row["ARPU"] / us_row["ARPU"], 3),
-        "Churn_gap": round(india_row["Churn"] - us_row["Churn"], 3),
-        "ServerCost_ratio": round(india_row["Server_Cost"] / us_row["Server_Cost"], 3),
-        "Localization_gap": round(india_row["Localization"] - us_row["Localization"], 1),
-        "WatchHour_delta": round(india_row["Avg_Watch_Hrs"] - us_row["Avg_Watch_Hrs"], 2)
+    "ARPU_ratio": float(round(india_row["ARPU"] / us_row["ARPU"], 3)),
+    "Churn_gap": float(round(india_row["Churn"] - us_row["Churn"], 3)),
+    "ServerCost_ratio": float(round(india_row["Server_Cost"] / us_row["Server_Cost"], 3)),
+    "Localization_gap": float(round(india_row["Localization"] - us_row["Localization"], 1)),
+    "WatchHour_delta": float(round(india_row["Avg_Watch_Hrs"] - us_row["Avg_Watch_Hrs"], 2))
     }
 
 # === Save Output ===
