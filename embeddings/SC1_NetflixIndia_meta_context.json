@@ -1,0 +1,18 @@
+{
+    "SC1_NetflixIndia": {
+        "region_India": 1,
+        "region_US": 0,
+        "industry_Streaming": 1,
+        "industry_Finance": 0,
+        "industry_Retail": 0,
+        "urgency_low": 0,
+        "urgency_medium": 1,
+        "urgency_high": 0,
+        "risk_tolerance_low": 0,
+        "risk_tolerance_medium": 0,
+        "risk_tolerance_high": 1,
+        "hierarchy_level_CXO": 1,
+        "hierarchy_level_Middle_Manager": 0,
+        "hierarchy_level_Team_Lead": 0
+    }
+}

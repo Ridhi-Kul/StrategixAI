@@ -51,6 +51,8 @@ Contextual Tags:
 
 Based on the risks, opportunities, and stakeholder views:
 Suggest 2–3 strategic options for this scenario, and explain the rationale behind each.
+
+Strategic Options:
 """
     return prompt
 
@@ -63,7 +65,7 @@ def load_llm():
         torch_dtype=torch.float16,
         device_map="auto"
     )
-    return pipeline("text-generation", model=model, tokenizer=tokenizer, max_new_tokens=400, device=0)
+    return pipeline("text-generation", model=model, tokenizer=tokenizer, max_new_tokens=400)
 
 # === Run Agent ===
 def main():
@@ -78,12 +80,20 @@ def main():
 
     print("🤖 Running LLM (TinyLlama float16)...")
     llm = load_llm()
-    output = llm(prompt)[0]['generated_text']
+    full_output = llm(prompt)[0]['generated_text']
+    trimmed_output = full_output[len(prompt):].strip()
+
+    print("\n📝 LLM Response Preview:\n" + "-"*40)
+    print(trimmed_output[:800] + ("..." if len(trimmed_output) > 800 else ""))
+    print("-" * 40)
 
     output_path = Path("prompts") / "generated_options.json"
     output_path.parent.mkdir(parents=True, exist_ok=True)
     with open(output_path, "w") as f:
-        json.dump({"prompt": prompt, "response": output}, f, indent=4)
+        json.dump({
+            "prompt": prompt,
+            "response": trimmed_output
+        }, f, indent=4)
 
     print(f"✅ Output saved to: {output_path}")
 

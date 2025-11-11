@@ -1,0 +1,32 @@
+{
+    "SC1_NetflixIndia": {
+        "Q3_2019": {
+            "ARPU_ratio": 0.174,
+            "Churn_gap": 4.9,
+            "ServerCost_ratio": 2.0,
+            "Localization_gap": -62.0,
+            "WatchHour_delta": -4.6
+        },
+        "Q4_2019": {
+            "ARPU_ratio": 0.188,
+            "Churn_gap": 4.7,
+            "ServerCost_ratio": 1.833,
+            "Localization_gap": -59.0,
+            "WatchHour_delta": -4.4
+        },
+        "Q1_2020": {
+            "ARPU_ratio": 0.203,
+            "Churn_gap": 4.7,
+            "ServerCost_ratio": 1.833,
+            "Localization_gap": -55.0,
+            "WatchHour_delta": -4.1
+        },
+        "Q2_2020": {
+            "ARPU_ratio": 0.21,
+            "Churn_gap": 4.4,
+            "ServerCost_ratio": 1.667,
+            "Localization_gap": -52.0,
+            "WatchHour_delta": -4.0
+        }
+    }
+}

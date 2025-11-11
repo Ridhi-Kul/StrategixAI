@@ -1,5 +1,3 @@
-# Step 3.1: Text Embedding Pipeline using SBERT
-
 import os
 import re
 import pickle
@@ -14,7 +12,7 @@ SEGMENTED_FILES = ["market_trends.txt", "stakeholder_notes.txt"]
 UNSEGMENTED_FILES = {"case_description.txt": "CASE_DESCRIPTION"}
 
 # === Load SBERT Model ===
-model = SentenceTransformer('all-MiniLM-L6-v2')  # lightweight but powerful
+model = SentenceTransformer('all-MiniLM-L6-v2') 
 
 # === Embedding Dictionary ===
 embedding_dict = {}

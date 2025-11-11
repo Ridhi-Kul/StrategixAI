@@ -1,0 +1,14 @@
+# === Core ML + Transformers ===
+transformers>=4.41.0
+sentence-transformers>=2.7.0
+torch>=2.2.0
+
+# === Data handling ===
+pandas>=2.0.0
+
+# === System and file handling ===
+pathlib  # optional in Python 3.4+, included by default
+
+# === Inference & Visualization (optional) ===
+accelerate>=0.28.0
+scipy>=1.10.0
